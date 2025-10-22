@@ -1,0 +1,3 @@
+*.o
+.vscode
+cmd_list

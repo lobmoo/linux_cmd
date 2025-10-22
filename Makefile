@@ -1,6 +1,6 @@
 # 编译器选项
 CC := gcc
-LIBS = -lpthread -lrt            #动态库
+LIBS = -pthread -lrt            #动态库
 # 目标文件
 TARGET := cmd_svr
 TARGET2 := cmd_cli
