@@ -20,4 +20,4 @@ chmod 777 /bin/cmd_list.sh
 /bin/cmd_list.sh
 
 #Æô¶¯·şÎñÆ÷
-sudo ./cmd_svr& 
+sudo ./cmd_svr
