@@ -170,10 +170,12 @@ INT32 main(int argc, char *argv[])
     iRet = client_writen(iSockFd, &stCmdData, sizeof(stCmdData));
     if (iRet != sizeof(stCmdData))
     {
+        close(iSockFd);
         CLI_ERROR("Write %s\n", strerror(errno));
         return -1;
     }
 
+    close(iSockFd);
     return 0;
 }
 
